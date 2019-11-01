@@ -55,7 +55,11 @@
 
     // required
     "@typescript-eslint/no-require-imports": "off",
-    "@typescript-eslint/no-var-requires": "off"
+    "@typescript-eslint/no-var-requires": "off",
+
+    // replacing from Wikimedia rule set
+    "semi": "off",
+    "@typescript-eslint/semi": [ "error", "always" ]
   },
   "overrides": [ {
     // see https://github.com/eslint/typescript-eslint-parser/issues/437#issuecomment-435526531
