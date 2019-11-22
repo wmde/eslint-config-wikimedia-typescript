@@ -1,10 +1,14 @@
 {
   "name": "@wmde/eslint-config-wikimedia-typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint config for TypeScript following Wikimedia code conventions.",
   "main": "typescript.json",
   "scripts": {
     "test": "eslint . --ext .json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmde/eslint-config-wikimedia-typescript.git"
   },
   "keywords": [
     "style guide",
@@ -12,6 +16,12 @@
     "eslintconfig",
     "wikimedia"
   ],
+  "author": "The Wikidata team",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/wmde/eslint-config-wikimedia-typescript/issues"
+  },
+  "homepage": "https://github.com/wmde/eslint-config-wikimedia-typescript#readme",
   "files": [
     "typescript.json"
   ],
