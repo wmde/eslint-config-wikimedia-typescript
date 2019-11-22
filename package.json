@@ -4,6 +4,7 @@
   "description": "ESLint config for TypeScript following Wikimedia code conventions.",
   "main": "typescript.json",
   "scripts": {
+    "test": "eslint . --ext .json"
   },
   "keywords": [
     "style guide",
@@ -14,9 +15,10 @@
   "files": [
     "typescript.json"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-wikimedia": "^0.15.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.1",
