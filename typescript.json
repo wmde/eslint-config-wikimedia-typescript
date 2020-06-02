@@ -21,6 +21,7 @@
       "allowTypedFunctionExpressions": true,
       "allowHigherOrderFunctions": true
     } ],
+    "@typescript-eslint/explicit-module-boundary-types": ["error"],
     "@typescript-eslint/explicit-member-accessibility": [ "error", { "accessibility": "explicit" } ],
     // aligned to https://github.com/wikimedia/eslint-config-wikimedia/blob/master/common.json#L21
     "@typescript-eslint/indent": [ "error", "tab", { "SwitchCase": 1 } ],
