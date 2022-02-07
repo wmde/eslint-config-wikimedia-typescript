@@ -1,6 +1,6 @@
 {
 	"name": "@wmde/eslint-config-wikimedia-typescript",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "ESLint config for TypeScript following Wikimedia code conventions.",
 	"main": "typescript.js",
 	"scripts": {
