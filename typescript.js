@@ -25,6 +25,7 @@ module.exports = {
     "@typescript-eslint/explicit-member-accessibility": [ "error", { "accessibility": "explicit" } ],
     // aligned to https://github.com/wikimedia/eslint-config-wikimedia/blob/master/common.json#L21
     "@typescript-eslint/indent": [ "error", "tab", { "SwitchCase": 1 } ],
+    "@typescript-eslint/member-delimiter-style": "error",
     "no-empty-function": "off",
     "@typescript-eslint/no-empty-function": "error",
     "@typescript-eslint/no-empty-interface": [ "error", { "allowSingleExtends": true } ],
