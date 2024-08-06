@@ -25,6 +25,6 @@ To make a new release:
 1. Once the GitHub release is published,
    it should be automatically published to NPM via GitHub Actions.
 
-1. Submit a Gerrit change to `labs/libraryupgrader/config`
+1. Submit a Gitlab change to `ci-tools/libup-config`
    to update the version of the package in `releases.json`.
-   ([Source](https://gerrit.wikimedia.org/r/c/labs/libraryupgrader/config/+/1021379/); replace with an example once available.)
+   ([Source](https://gitlab.wikimedia.org/repos/ci-tools/libup-config/-/commit/62e275576794ccdbf82b7cef2bf5cdd629d9b60c); replace with an example once available.)
