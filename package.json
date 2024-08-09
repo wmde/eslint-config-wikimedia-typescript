@@ -1,6 +1,6 @@
 {
 	"name": "@wmde/eslint-config-wikimedia-typescript",
-	"version": "0.2.10",
+	"version": "0.2.11",
 	"description": "ESLint config for TypeScript following Wikimedia code conventions.",
 	"main": "typescript.js",
 	"scripts": {
@@ -30,8 +30,8 @@
 		"eslint-config-wikimedia": "^0.28.2"
 	},
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^8.0.1",
-		"@typescript-eslint/parser": "^8.0.1",
+		"@typescript-eslint/eslint-plugin": "8.x",
+		"@typescript-eslint/parser": "8.x",
 		"eslint-config-wikimedia": "^0.28.2"
 	}
 }
