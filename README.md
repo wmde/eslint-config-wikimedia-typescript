@@ -26,5 +26,5 @@ To make a new release:
    it should be automatically published to NPM via GitHub Actions.
 
 1. Submit a Gitlab change to `ci-tools/libup-config`
-   to update the version of the package in `releases.json`.
-   ([Source](https://gitlab.wikimedia.org/repos/ci-tools/libup-config/-/commit/62e275576794ccdbf82b7cef2bf5cdd629d9b60c); replace with an example once available.)
+   to update the version of the package in `releases.json`
+   ([example](https://gitlab.wikimedia.org/repos/ci-tools/libup-config/-/merge_requests/71)).
