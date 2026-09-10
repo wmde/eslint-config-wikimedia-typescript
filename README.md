@@ -1,4 +1,6 @@
-# eslint-config-wikimedia-typescript
+# Deprecated! - eslint-config-wikimedia-typescript
+
+**DEPRECATED:** This library has been deprecated, as the rules included here have now been upstreamed. If you are using this library in your projects, please consider dropping it and upgrading to the latest version of [eslint-config-wikimedia](https://www.npmjs.com/package/eslint-config-wikimedia)
 
 ESLint config for TypeScript following [Wikimedia code conventions](https://www.npmjs.com/package/eslint-config-wikimedia) - the idea is to make this repository here obsolete in the medium term and upstream these rules.
 
